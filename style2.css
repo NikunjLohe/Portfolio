@@ -1,0 +1,135 @@
+/* for tablets */
+@media only screen and (max-width: 820px) {
+    /* body {
+        background-color: red;
+    } */
+
+    .navbar {
+        margin: 10px 25px;
+    }
+
+    ul {
+        margin-left: 60px;
+    }
+
+    .secB img{
+        height: 300px;
+        width: 400px;
+    }
+
+    #aboutme {
+        width: 700px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px 0px 10px 65px ;
+    }
+
+    .para p {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .project {
+        /* width: 100%; */
+        margin: 50px 50px 40px 140px;
+    }
+
+    .projects {
+        grid-template-columns: min-content;
+        justify-content: center;
+    }
+
+    .box{
+        width: 560px;
+        
+    }
+     .box img {
+        width: 530px;
+        padding-left: 13px;
+     }
+
+     .footer {
+        width: 100%;
+        padding-left: 60px;
+        
+     }
+}
+
+/* for mobile */
+@media only screen and (max-width: 576px) {
+    /* body{
+        background-color: rgb(132, 132, 151);
+    } */
+
+    .navbar{
+        width: 800px;
+        justify-content: space-evenly; 
+        margin: 10px 20px;
+    }
+
+    nav ul li {
+        margin: 10px 10px;
+    }
+
+    .sec {
+        margin-left: 60px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+
+    .secA{
+        width:400px;
+        margin: 45px 20px 10px 2px;
+    }
+
+    .secA div {
+        width: 40%;
+    }
+
+    .text1 {
+        font-size: 30px;
+    }
+
+    .secB img {
+        height: 270px;
+        width: 320px;
+        margin: 80px 30px;
+    }
+
+    .header{
+        height: 60vh;
+        width: 100%;
+    }
+
+    #aboutme {
+        width: 500px;
+        margin-top: 190px; 
+        margin-bottom: 90px;
+        margin-left: 170px;
+    }
+
+    #skills  {
+        margin: 20px 50px;
+    }
+
+    #skills h3 {
+        margin: auto;
+    }
+
+    
+    .project {
+        width: 100VW;
+        margin: 50px 50px 40px 240px;
+    }
+
+    .footer{
+        width: 100%;
+        float: right;
+        /* padding-left: 430px ; */
+        justify-content: center;
+    }
+
+    
+}
